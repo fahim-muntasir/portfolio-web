@@ -1,0 +1,35 @@
+.pageDicription {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.pageDicription > h2 {
+  font-weight: 400;
+  line-height: 35px;
+  color: var(--color_default);
+  position: relative;
+}
+
+.pageDicription > h2::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: var(--color_topBg);
+  bottom: -20px;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.allPortfolio {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
