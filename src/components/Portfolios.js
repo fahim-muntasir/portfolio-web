@@ -9,9 +9,10 @@ export default function Portfolios() {
   return (
     <div className="container">
       <div className={classes.pageDicription}>
+        <img src="images/portfolio.png" alt="portfolio icon" />
         <h2>
           Here are some of the projects I've worked on before. Every website and
-          web application is my own creation.
+          web application is my own creation.🚀
         </h2>
       </div>
       <div className={classes.allPortfolio}>

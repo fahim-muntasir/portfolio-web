@@ -39,7 +39,7 @@ export default function SinglePortfolio({
             <i className="fab fa-github"></i> GitHub
           </a> */}
           <a target="_blank" href={liveLink} rel="noreferrer">
-            <i className="fas fa-external-link"></i> View
+            <img src="images/link.png" alt="link icon" /> Live View
           </a>
         </div>
       </div>

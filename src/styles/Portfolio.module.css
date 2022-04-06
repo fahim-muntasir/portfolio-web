@@ -2,8 +2,19 @@
   width: 60%;
   margin: auto;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 500px) {
+  .pageDicription {
+    width: 80%;
+  }
+}
+
+.pageDicription > img {
+  width: 180px;
+  margin-bottom: 40px;
 }
 
 .pageDicription > h2 {
@@ -27,9 +38,22 @@
 
 .allPortfolio {
   display: grid;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   grid-column-gap: 20px;
   grid-row-gap: 30px;
   justify-content: space-between;
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .allPortfolio {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .allPortfolio {
+    grid-template-columns: 1fr;
+  }
 }

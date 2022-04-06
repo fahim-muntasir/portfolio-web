@@ -2,8 +2,9 @@
 
 :root {
   --color_default: #333;
-  --color_topBg: #3f51b5;
+  --color_topBg: #0f172a;
   --color_titleCo: #e3f2fd;
+  --color_viewLinkBtnHover: #1f2937;
 }
 
 body {

@@ -30,10 +30,32 @@
   margin-bottom: 5px;
 }
 
+.gitHubAndViewLink {
+  margin-top: 20px;
+}
+
 .gitHubAndViewLink > a {
   font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: var(--color_topBg);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid var(--color_topBg);
+  transition: 0.1s;
+}
+
+.gitHubAndViewLink > a:hover {
+  background-color: var(--color_viewLinkBtnHover);
+  color: var(--color_titleCo);
+}
+
+.gitHubAndViewLink > a > img {
+  width: 15px;
+  margin-right: 5px;
 }
 
 .gitHubAndViewLink > a:first-child {
@@ -70,6 +92,10 @@
 
 .singleUseLanguage > .mongodb {
   background-color: #4db33d;
+}
+
+.singleUseLanguage > .tailwindcss {
+  background-color: #38bdf8;
 }
 
 .singleUseLanguage > span {
